@@ -1,0 +1,7 @@
+export const CONTAINER_MAX_WIDTHS = {
+  FORMS: 530,
+  SMALL: 730,
+  MEDIUM: 1010,
+  LARGE: 1100,
+  EXTRA: 1230,
+}
