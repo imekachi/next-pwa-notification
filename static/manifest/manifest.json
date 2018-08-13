@@ -1,0 +1,21 @@
+{
+  "name": "PWA Notification test",
+  "short_name": "PWA Noti",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "theme_color": "#0257ee",
+  "background_color": "#fdd835",
+  "icons": [
+    {
+      "src": "/static/manifest/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/manifest/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

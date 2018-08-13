@@ -1,12 +1,14 @@
 {
   "name": "pwa-notification",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js",
+    "deploy": "yarn build && now --public"
   },
   "dependencies": {
+    "core-js": "^2.5.7",
     "lodash": "^4.17.10",
     "next": "^6.1.1",
     "react": "^16.4.2",
@@ -27,6 +29,7 @@
     "eslint-plugin-react": "^7.10.0",
     "lodash-webpack-plugin": "^0.11.5",
     "prettier": "^1.14.2",
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.6.2",
+    "sw-precache-webpack-plugin": "^0.11.5"
   }
 }
